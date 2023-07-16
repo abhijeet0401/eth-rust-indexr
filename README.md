@@ -29,7 +29,8 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
 # HOW TO RUN
-//pending gitclone 
+- clone the repo `https://github.com/abhijeet0401/eth-rust-indexr.git`
+- cd `eth-rust-indexr.git`
 - start a `mongod` deamon locally (`mongodb://localhost:27017`)
 - run `cargo build --release`
 - run `./target/release/rust-beacon`
