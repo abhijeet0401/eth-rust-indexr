@@ -1,0 +1,21 @@
+[package]
+name = "rust-beacon"
+version = "0.1.0"
+authors = ["Abhijeet Singh vayaubhijeet@gmail.com"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+actix = "0.13"
+actix-web = "4"
+actix-rt = "2.8.0"
+
+mongodb = { version = "2.6.0", default-features = false, features = ["sync"] }
+bson = "2.1.0"
+serde = "1.0.136"
+futures = "0.3.19"
+
+reqwest = { version = "0.11", features = ["json","stream"] }
+serde_json = "1.0"
+eventsource-stream = "0.2.3"
+tokio = "1.29.1"
